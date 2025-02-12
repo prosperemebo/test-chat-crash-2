@@ -1,0 +1,6 @@
+export default {
+  // COMET CHAT
+  COMETCHAT_APP_ID: process.env.EXPO_PUBLIC_COMETCHAT_APP_ID || '',
+  COMETCHAT_REGION: process.env.EXPO_PUBLIC_COMETCHAT_REGION || '',
+  COMETCHAT_AUTH_KEY: process.env.EXPO_PUBLIC_COMETCHAT_AUTH_KEY || '',
+};

@@ -5,8 +5,8 @@
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint"
@@ -15,9 +15,17 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@cometchat/calls-sdk-react-native": "^4.1.1",
+    "@cometchat/chat-sdk-react-native": "^4.0.12",
+    "@cometchat/chat-uikit-react-native": "^4.3.24",
     "@expo/vector-icons": "^14.0.2",
+    "@react-native-async-storage/async-storage": "^1.17.10",
+    "@react-native-clipboard/clipboard": "^1.13.2",
+    "@react-native-community/datetimepicker": "^7.6.4",
+    "@react-native-community/netinfo": "7.1.7",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
+    "dayjs": "^1.11.13",
     "expo": "~52.0.32",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.5",
@@ -33,11 +41,14 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.7",
+    "react-native-background-timer": "2.4.1",
+    "react-native-callstats": "3.73.7",
     "react-native-gesture-handler": "~2.20.2",
     "react-native-reanimated": "~3.16.1",
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "~4.4.0",
     "react-native-web": "~0.19.13",
+    "react-native-webrtc": "^1.106.1",
     "react-native-webview": "13.12.5"
   },
   "devDependencies": {
